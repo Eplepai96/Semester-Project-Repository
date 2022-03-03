@@ -5,8 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/da4fbc451d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Hi! This is a website</h1>
+    <header>
+        <nav>
+            <input id="menu" type="checkbox">
+            <label for="menu"><span class="material-icons" id="hamburger">
+                menu
+                </span></label>
+            <ul>
+                <li class="active"><a href="index.html">CSM</a></li>
+                <li><a href="attractions.html">Our attractions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="events.html">Calendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="top">
+            <h1>Community Science museum</h1>
+            <p>Fun with science</p>
+        </div>
+        <div id="for-container">
+            <div class="event-container">
+                <img src="images/Science-image-1.jpg" class="image" alt="kids image">
+                <h3>For Kids</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam soluta aliquid optio, animi necessitatibus totam</p>
+            </div>
+            <div class="event-container">
+                <img src="images/Family-image-1.jpg" class="image" alt="families image">
+                <h3>For Families</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam soluta aliquid optio, animi necessitatibus totam</p>
+            </div>
+            <div class="event-container">
+                <img src="images/School-image-2.jpg" class="image" alt="schools image">
+                <h3>For Schools</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam soluta aliquid optio, animi necessitatibus totam</p>
+            </div>
+        </div>
+        <div class="attraction-category" id="science">
+            <h2>Science</h2>
+            <a href="attractions.html" class="button">See attactions</a>
+        </div>
+        <div class="attraction-category-2" id="technology">
+            <h2>Technology</h2>
+            <a href="attractions.html" class="button">See attactions</a>
+        </div>
+        <div class="attraction-category" id="science-history">
+            <h2>Science History</h2>
+            <a href="attractions.html" class="button">See attactions</a>
+        </div>
+        <div>
+            <h1>Upcoming events</h1>
+        </div>
+        <div class="event-containers">
+            <div class="event-container">
+                <a href="event-1.html"><img src="images/Chemistry-image-3.jpg" class="image" alt="chemistry event image"></a>
+                <h3>Chemistry (02.04 14:00)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia velit nostrum aperiam facere dolor?</p>
+            </div>
+            <div class="event-container">
+                <a href="event-2.html"><img src="images/Robot-image-1.jpg" class="image" alt="technology event image"></a>
+                <h3>Technology (12.04 14:00)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia velit nostrum aperiam facere dolor?</p>
+            </div>
+            <div class="event-container">
+                <a href="event-3.html"><img src="images/Programming-image-1.jpg" class="image" alt="programming event image"></a>
+                <h3>Technology (16.04 12:00)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia velit nostrum aperiam facere dolor?</p>
+            </div>
+            <div class="event-container">
+                <a href="event-4.html"><img src="images/Biology-image-2.jpg" class="image" alt="biology event image"></a>
+                <h3>Biology (26.04 13:00)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia velit nostrum aperiam facere dolor?</p>
+            </div>
+            <div class="event-container">
+                <a href="event-5.html"><img src="images/Chemistry-image-1.jpg" class="image" alt="chemistry event image"></a>
+                <h3>Chemistry (02.05 14:00)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia velit nostrum aperiam facere dolor?</p>
+            </div>
+            <div class="event-container">
+                <a href="event-6.html"><img src="images/Technology-image-3.jpg" class="image" alt="technology event image"></a>
+                <h3>Technology (12.05 12:00)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quia velit nostrum aperiam facere dolor?</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>Follow us</h4>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter-square"></i>
+        </div>
+        <p>Copyright <i class="fa fa-copyright"></i></p>
+    </footer>
 </body>
 </html>

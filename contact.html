@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/da4fbc451d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <input id="menu" type="checkbox">
+            <label for="menu"><span class="material-icons" id="hamburger">
+                menu
+                </span></label>
+            <ul>
+                <li><a href="index.html">CSM</a></li>
+                <li><a href="attractions.html">Our attractions</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="events.html">Calendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Contact</h1>
+        </div>
+        <div id="flex-wrap">
+            <div id="info-container">
+                <div>
+                    <h2>Info</h2>
+                </div>
+                <div>
+                    <h3>Email:</h3>
+                    <p>csmcontact@online.com</p>
+                </div>
+                <div>
+                    <h3>Phone number:</h3>
+                    <p>12345678</p>
+                </div>
+            </div>
+            <div id="form-wrap">
+                <div>
+                    <p>Name</p>
+                    <input type="text" class="form-field">
+                </div>
+                <div>
+                    <p>Email</p>
+                    <input type="email" class="form-field">
+                </div>
+                <div>
+                    <p>Your message</p>
+                    <textarea name="textarea" id="textarea" cols="35" rows="7"></textarea>
+                </div>
+                <div>
+                    <a href="send" class="button" id="contact-button">Send</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>Follow us</h4>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter-square"></i>
+        </div>
+        <p>Copyright <i class="fa fa-copyright"></i></p>
+    </footer>
+</body>
+</html>

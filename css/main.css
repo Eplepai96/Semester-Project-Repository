@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+:root{
+    --color-lightblue: #7671A6;
+}
+
+html{
+    font-family: 'Jura', sans-serif;
+    color: white;
+    background-color: #050317;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    margin-bottom: 40px;
+}
+
+.button{
+    background-color: #243023;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.active{
+    background-color: var(--color-lightblue);
+    padding: 20px 5px;
+    margin-top: -20px;
+    border-radius: 3px;
+}
+
+
+footer{
+    background-color: var(--color-lightblue);
+    padding: 10px;
+    width: 100%;
+    margin: 30px -8px -8px;
+    clear: both;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#menu{
+    display: none;
+}
+
+/*header*/
+nav ul{
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -35px;
+    margin-left: -30px;
+}
+
+nav .material-icons{
+    font-size: 50px;
+}
+
+.icons i{
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+/* Homepage */
+
+.top{
+    background-image: url(/images/Technology-image-2.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+
+.top p{
+    padding: 68px;
+    font-size: 30px;
+}
+
+.attraction-category-2 .button, .attraction-category .button{
+    position: absolute;
+    top: 40%;
+    margin-left: 40px;
+}
+
+.attraction-category h2, .attraction-category-2 h2{
+    font-size: 40px;
+}
+
+.event-container h3{
+    text-align: center;
+}
+
+.image{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.event-containers{
+    align-items: center;
+    justify-content: center;
+}
+
+.event-container{
+    padding-top: 50px;
+}
+
+.attraction-category, .attraction-category-2{
+   min-height: 45vh;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   margin-top: 10px;
+}
+
+#science{
+    background-image: url(/images/Biology-image-3.jpg);
+}
+
+#technology{
+    background-image: url(/images/Technology-image-1.jpg);
+}
+
+#science-history{
+    background-image: url(/images/Science-history-image-4.jpg);
+}
+
+#for-container > .event-container{
+    display: none;
+}
+
+/*About page*/
+
+#about-text, #opening-background{
+    background-color: var(--color-lightblue);
+}
+
+#opening-background{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    float: right;
+    margin: 15px;
+}
+
+#employees{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+#about-text{
+    padding: 0px 5px 5px 5px;
+    float: right;
+}
+
+#about-text p, #about-text h1{
+    padding: 10px;
+    margin-top: 60px;
+}
+
+#about-text h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#image-container{
+    background-image: url(/images/Museum-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    float: right;
+    margin-top: 38px;
+}
+
+/* Attractions */
+
+
+.attraction-container{
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0px 15px;
+}
+
+#attractions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Contact */
+#flex-wrap{
+    min-height: 55vh;
+}
+
+#info-container{
+    padding: 40px 50px;
+    background-color: var(--color-lightblue);
+    max-height: 350px;
+}
+
+.form-field, #textarea, #info-container{
+    border-radius: 3px;
+}
+
+.form-field, #textarea{
+    border: none;
+    margin-bottom: 25px;
+}
+
+.form-field{
+    height: 22px;
+}
+
+#contact-button{
+    margin-bottom: auto;
+}
+
+/* Attraction specific, Calendar */
+#specific-main, #calendar-main{
+    margin: 10px;
+    width: auto;
+}
+
+#specific-image, #calendar-image{
+    display: block;
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto;
+}
+
+#specific-text, #calendar-text{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#specific-text:last-child{
+    margin-bottom: 150px;
+}
+
+/* Calendar */
+
+#calendar, #weekdays{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    max-width: 1000px;
+    margin: auto;
+}
+
+#calendar div{
+    border: 2px solid;
+    border-radius: 2px;
+    display: block;
+    background-color: var(--color-lightblue);
+    height: 70px;
+    margin-top: -40px;
+}
+#calendar p{
+    margin: 2px;
+}
+#calendar div p:last-of-type{
+    width: 50px;
+}
+
+.event-day{
+    background-color: rgb(57, 124, 87) !important;
+}
+
+#calendar-main h2{
+    text-align: center;
+}
+#previous, #next{
+    padding: 1px;
+}
+
+
+@media only screen and (min-width:600px){
+    p{
+        font-size: 22px;
+    }
+
+    #for-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .event-container{
+        padding: 20px;
+        flex: 1 1 30%;
+    }
+    
+
+    .event-containers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .attraction-category h2{
+        position: absolute;
+        top: 32%;
+        margin-left: 40px;
+    }
+
+    .attraction-category-2 h2{
+        position: absolute;
+    }
+
+    .attraction-category .button, .attraction-category-2 h2{
+    right: -1%;
+    margin-right: 40px;
+    }
+
+    .attraction-category .button{
+        top: 40%;
+    }
+    .attraction-category-2 h2{
+        top: 32%;
+    }
+
+
+    #employees{
+        float: right;
+    }
+
+    #about-info{
+        float: left;
+        max-width: 300px;
+    }
+    #about-content{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    #about-text{
+        width: 40%;
+        height: 100vh;
+        margin-top: 38px;
+        padding-bottom: 0px;
+    }
+    #image-container{
+        width: 58%;
+    }
+    
+    #flex-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #hamburger{
+        display: none;
+    }
+
+    #about-main{
+        margin-top: -76px;
+    }
+
+}
+
+    @media only screen and (min-width: 0px) and (max-width: 599px) {
+        p{
+            font-size: 18px;
+        }
+
+        .attraction-category h2, .attraction-category-2 h2{
+            padding: 40px;
+        }
+
+        nav ul{
+            display: none;
+        }
+
+        nav ul li{
+            margin-bottom: 35px;
+            position: relative;
+            left: -90%;
+        }
+
+        nav{
+            position: relative;
+            right: -90%;
+        }
+
+        #menu:checked ~ ul{
+            display: block;
+        }
+
+        .active{
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #about-text{
+            margin: -40px 0px 10px -8px;
+        }   
+        
+        #about-main{
+            margin-top: -45px;
+        }
+        #weekdays div{
+            margin-left: 20px;
+        }
+    
+    }        
