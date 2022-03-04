@@ -15,6 +15,11 @@ ul{
     list-style: none;
 }
 
+ul li img{
+    height: 40px;
+    margin-top: -5px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -44,7 +49,7 @@ footer{
     background-color: var(--color-lightblue);
     padding: 10px;
     width: 100%;
-    margin: 30px -8px -8px;
+    margin: 80px -8px -8px;
     clear: both;
 }
 
@@ -147,6 +152,24 @@ nav .material-icons{
     display: none;
 }
 
+#page-information h2{
+    text-align: center;
+}
+
+#info-paragraphs, #page-info-buttons{
+    display: flex;
+}
+
+#info-paragraphs p, #page-info-buttons{
+    margin: 10px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+#page-info-buttons a{
+    margin: 10px;
+}
+
 /*About page*/
 
 #about-text, #opening-background{
@@ -160,6 +183,7 @@ nav .material-icons{
     text-align: center;
     float: right;
     margin: 15px;
+    box-shadow: #030303 10px 10px 20px;
 }
 
 #employees{
@@ -192,6 +216,10 @@ nav .material-icons{
     width: 100vw;
     float: right;
     margin-top: 38px;
+}
+
+#map{
+    text-align: center;
 }
 
 /* Attractions */
@@ -379,6 +407,7 @@ nav .material-icons{
 }
 
     @media only screen and (min-width: 0px) and (max-width: 599px) {
+        
         p{
             font-size: 18px;
         }
@@ -420,6 +449,10 @@ nav .material-icons{
         }
         #weekdays div{
             margin-left: 20px;
+        }
+
+        #info-paragraphs, #page-info-buttons{
+            display: none;
         }
     
     }        
