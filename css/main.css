@@ -166,7 +166,7 @@ nav .material-icons{
 }
 
 #page-info-buttons{
-    display: flex;
+    display: none;
 }
 
 #page-info-buttons a{
