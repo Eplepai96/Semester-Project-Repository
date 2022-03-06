@@ -320,7 +320,7 @@ nav .material-icons{
     margin: 2px;
 }
 #calendar div p:last-of-type{
-    width: 50px;
+    width: 35px;
 }
 
 .event-day{
@@ -435,12 +435,6 @@ nav .material-icons{
         nav ul li{
             margin-bottom: 35px;
             position: relative;
-            left: -90%;
-        }
-
-        nav{
-            position: relative;
-            right: -90%;
         }
 
         #menu:checked ~ ul{
