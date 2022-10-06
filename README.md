@@ -9,13 +9,13 @@ Ecommerce website selling jackets.
 # Description
 Ecommerce website selling jackets at reasonable prices. One of the first projects made in my studies at Noroff School of Technogoly and Digital Media. The site was initally buildt using only HTML and CSS, but was updated during our CMS course, to include WordPress rest API. API url currently works only on my local environment, as I forgot to change it to the live page. To be updated
 
-"*" Noroff
-"*" Ecommerce
-"*" Currently not functional
+* Noroff
+* Ecommerce
+* Currently not functional
 
 # Built With
-"*" HTML
-"*" CSS
+* HTML
+* CSS
 
 # Getting Started
 Installing
