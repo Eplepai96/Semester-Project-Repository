@@ -1,7 +1,7 @@
 # Semester-Project-Repository
 1st year Semester Project at Noroff
 
-Rainy Days ecommerse website
+<h1> Rainy Days ecommerse website </h1>
 image
 
 Ecommerce website selling jackets.
