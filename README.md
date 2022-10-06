@@ -1,17 +1,17 @@
 # Semester-Project-Repository
 1st year Semester Project at Noroff
 
-# Rainy Days ecommerse website 
+# Community Science Museum
 image
 
-Ecommerce website selling jackets.
+Science museum webpage
 
 ## Description
-Ecommerce website selling jackets at reasonable prices. One of the first projects made in my studies at Noroff School of Technogoly and Digital Media. The site was initally buildt using only HTML and CSS, but was updated during our CMS course, to include WordPress rest API. API url currently works only on my local environment, as I forgot to change it to the live page. To be updated
+Museum webpage targeted towards kids and their families. Buildt during the second project at Noroff. 
 
 * Noroff
-* Ecommerce
-* Currently not functional
+* Museum webpage
+
 
 ## Built With
 * HTML
@@ -21,7 +21,7 @@ Ecommerce website selling jackets at reasonable prices. One of the first project
 ## Getting Started
 #### Installing
 Clone the repo and you should be good to go: 
-https://github.com/Noroff-FEU-Assignments/cross-course-project-Eplepai96.git
+https://github.com/Eplepai96/Semester-Project-Repository.git
 
 ### Contributing
 If you want to contribute, plase open a pull request so the code can be reviewed.
