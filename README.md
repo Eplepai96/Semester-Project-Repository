@@ -19,7 +19,7 @@ Ecommerce website selling jackets at reasonable prices. One of the first project
 * JavaScript
 
 ## Getting Started
-Installing
+#### Installing
 Clone the repo and you should be good to go: 
 https://github.com/Noroff-FEU-Assignments/cross-course-project-Eplepai96.git
 
