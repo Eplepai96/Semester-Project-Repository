@@ -25,7 +25,7 @@ Clone the repo and you should be good to go:
 https://github.com/Eplepai96/Semester-Project-Repository.git
 
 ### Contributing
-If you want to contribute, plase open a pull request so the code can be reviewed.
+If you want to contribute, please open a pull request so the code can be reviewed.
 
 ### Contact
 To be added
