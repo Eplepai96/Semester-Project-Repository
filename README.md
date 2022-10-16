@@ -2,7 +2,8 @@
 1st year Semester Project at Noroff
 
 # Community Science Museum
-image
+![CSM skjermbilde](https://user-images.githubusercontent.com/95239043/196054395-cafc4345-f69e-4def-86e0-cc21ba6a5c79.png)
+
 
 Science museum webpage
 
